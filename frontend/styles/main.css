@@ -1,0 +1,265 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: coral !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: coral !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 15px;
+}
+
+.hero-section .btn-cta img {
+    width: 1000px;
+}
+
+.hero-section .btn {
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 15px;
+}
+
+/* Tutup Hero Section */
+
+
+/* Categories */
+.categories {
+    margin-top: 46px;
+}
+
+.tag {
+    background-color: rgb(14, 187, 199);
+    border-radius: 0px 20px 0px 0px;
+    padding: .25rem 1.25rem;
+    min-height: 30px;
+    left: 15px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #171938;
+}
+
+.categories-thumbnail {
+    height: 380px;
+    width: 90%;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.categories-img {
+    height: 100%;
+    width: 100%;
+    margin-top: 45px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 0.3s ease;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small {
+    height: 223px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+/* Akhir Categories */
+
+/* Best Product */
+.best-products {
+    padding-top: 50px;
+}
+
+.component-products {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    background: #a7ccc7c2;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.products-img {
+padding: 0.5rem;
+border-radius: 8px 8px;
+background: #dfe1e2;
+transition: all 0.3s ease;
+
+
+}
+
+.products-text {
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+
+color: #171938;
+
+}
+
+.products-price {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    
+    color: #000000;  
+}
+
+
+
+
+/* Akhir Best Product */
+
+
+/* Footer */
+.footer {
+    background: #20df7f;
+    
+}
+
+.text-uppercase {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: justify;
+    color: #000000;
+}
+
+.footer-tag {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: justify;
+
+    color: #000000;
+    
+}
+
+/* Akhir Footer */
+
+/* Footer 2 */
+.footer2 {
+    background: #8a8b8b;
+}
+
+.footer2-tag{
+    font-size: 13px;
+}
+/* Akhir Footer 2 */
+
+/* Footer 3 */
+.footer3{
+    background: #424141;
+}
+/* Akhir Footer 3 */
+
+/* Desktop Menu */
+.nav-link-mt-2{
+    margin-right: 0.5rem !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    box-sizing: border-box;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+
+.navbar-nav {
+    list-style: none;
+}
+
+.xzoom-thumbs img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 461px;
+    top: 146px;
+}
+
+
+/* Akhir Desktop Menu */
+
+.col-md-5 .mt-5 {
+    width: 100px;
+}
+
+.xzoom-thumbs {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 461px;
+    top: 146px;
+}
